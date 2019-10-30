@@ -38,9 +38,9 @@ arcade.arcade.draw_ellipse_filled(x,y,width, height, arcade.color.BLACK ,0,s_num
 
 #draw mouth 
 start_x = 220
-start_y = 250
+start_y = 220
 end_y = 380
-arcade.draw_parabola_outline(start_x, start_y, end_y, 3,  arcade.color.BLACK, 3, 180 )
+arcade.draw_parabola_outline(start_x, start_y, end_y, 3,  arcade.color.BLACK, 7, 180 )
 
 arcade.finish_render()
 
